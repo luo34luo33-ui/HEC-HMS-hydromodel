@@ -1,0 +1,35 @@
+{
+  "model": {
+    "time_interval_minutes": 60,
+    "state_interval_days": 1,
+    "control_interval_days": 8,
+    "backward_days": 2,
+    "forward_days": 3
+  },
+  "paths": {
+    "upload_dir": "/home/uwcc-admin/udp_150/hec-hms",
+    "base_model_single": "2008_2_Events_Hack",
+    "base_model_distributed": "2008_2_Events_Distributed",
+    "dssvue_cmd": "dssvue/hec-dssvue.sh"
+  },
+  "database": {
+    "config_file": "/home/uwcc-admin/udp_150/hec_server/config.json"
+  },
+  "stations": {
+    "kub_observed_id": "b0e008522be904bcf71e290b3b0096b33c3e24d9b623dcbe7e58e7d1cc82d0db",
+    "kub_forecasted_id0": "fb575cb25f1e3d3a07c84513ea6a91c8f2fb98454df1a432518ab98ad7182861",
+    "kub_forecasted_id1": "9b18ffa16b251319ad1a931c4e1011b4ce42c874543def69b8a4af76d7b8f9fc",
+    "kub_forecasted_id2": "e0e9cdc2aa4fef7178af08b987f4febc186d19397be744525fb6263815ca5fef",
+    "klb_observed_id": "69c464f749b36d9e55e461947238e7ed809c2033e75ae56234f466eec00aee35",
+    "klb_forecasted_id0": "69c464f749b36d9e55e461947238e7ed809c2033e75ae56234f466eec00aee35",
+    "klb_forecasted_id1": "35599583ae45d2c0ff93485b8a444da19fabdda8bf8fb539a6d77a0b0819da0a",
+    "klb_forecasted_id2": "c48dbb9475ec31b3419bd3dd4206fdff3c53d4d156fa5681ccfa0768e4c39417"
+  },
+  "location_ids": ["Awissawella", "Colombo"],
+  "data_formats": {
+    "date_format": "%Y-%m-%d",
+    "datetime_format": "%Y-%m-%d %H:%M:%S",
+    "dss_date_format": "%d %B %Y",
+    "dss_time_format": "%H:%M"
+  }
+}
